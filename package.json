@@ -1,0 +1,56 @@
+{
+  "name": "ezbank",
+  "version": "0.0.3",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "jest --no-cache --runInBand",
+    "test-dev": "jest --no-cache --runInBand --passWithNoTests --watchAll --detectOpenHandles"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testTimeout": 15000,
+    "setupFilesAfterEnv": [
+      "./src/test/setup.ts"
+    ]
+  },
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "compression": "^1.7.4",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "2.3.10",
+    "mongoose": "^5.13.9",
+    "morgan": "^1.10.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3",
+    "dotenv-safe": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.12",
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/jest": "^27.0.3",
+    "@types/supertest": "^2.0.11",
+    "@types/cookie-session": "^2.0.43",
+    "@types/method-override": "^0.0.32",
+    "@types/morgan": "^1.9.3",
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "jest": "^27.4.5",
+    "mocha": "^8.4.0",
+    "mongodb-memory-server": "^8.0.4",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.1.1"
+  },
+  "repository": {
+    "type": "git"
+  }
+}

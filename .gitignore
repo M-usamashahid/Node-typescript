@@ -1,0 +1,89 @@
+# Build #
+package-lock.json
+
+# Dependencies #
+node_modules/
+bower_components/
+bin/
+package-lock.json
+yarn.lock
+temp
+tempZip
+.temp
+.tempZip
+
+# PM2 #
+#######
+log.txt
+error_log.txt
+
+# Compiled Output #
+dist/
+build/
+tmp/
+publish/
+var/
+bundle.js
+docs/
+out-tsc/
+
+
+# IDEs & Editors #
+*.idea
+.project
+.classpath
+*.launch
+.settings/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+.c9/
+*.sublime-workspace
+
+# Misc #
+/.sass-cache
+/connect.lock
+/coverage/*
+/typings
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# E2E #
+/e2e/*.js
+/e2e/*.map
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
